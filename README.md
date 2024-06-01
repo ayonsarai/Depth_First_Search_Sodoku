@@ -1,29 +1,29 @@
 # Depth_First_Search_Sodoku
 
 # Algorithm: 
-DFS(Graph, start_node):
+## DFS(Graph, start_node):
 
-create a stack S
+* create a stack S
 
-mark start_node as visited
+* mark start_node as visited
 
-push start_node onto S
-
-
-while S is not empty:
-
-current_node = pop S
-
-process current_node
+* push start_node onto S
 
 
-for each neighbor of current_node:
+## while S is not empty:
 
-if neighbor is not visited:
+* current_node = pop S
 
-mark neighbor as visited
+* process current_node
 
-push neighbor onto S
+
+## for each neighbor of current_node:
+
+* if neighbor is not visited:
+
+* mark neighbor as visited
+
+* push neighbor onto S
 
 # Algorithm Steps:
 
