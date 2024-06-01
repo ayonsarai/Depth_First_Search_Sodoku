@@ -1,5 +1,30 @@
 # Depth_First_Search_Sodoku
 
+# Algorithm: 
+DFS(Graph, start_node):
+
+create a stack S
+
+mark start_node as visited
+
+push start_node onto S
+
+
+while S is not empty:
+
+current_node = pop S
+
+process current_node
+
+
+for each neighbor of current_node:
+
+if neighbor is not visited:
+
+mark neighbor as visited
+
+push neighbor onto S
+
 # Algorithm Steps:
 
 Find the first empty cell.
